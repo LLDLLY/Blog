@@ -118,3 +118,8 @@ body {
 .waifu-tool  span{
   color:#dc9a1e;
 }
+
+*::selection {
+  background: #03a9f4;
+  color: #f7f7f7;
+}

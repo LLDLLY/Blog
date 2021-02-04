@@ -245,11 +245,11 @@ hr:before,
   animation: titlescale 1s;
 }
 #nav.show {
-  -webkit-animation: headerNoOpacity 1s;
-  -moz-animation: headerNoOpacity 1s;
-  -o-animation: headerNoOpacity 1s;
-  -ms-animation: headerNoOpacity 1s;
-  animation: headerNoOpacity 1s;
+  -webkit-animation: headerNoOpacity 0.5s;
+  -moz-animation: headerNoOpacity 0.5s;
+  -o-animation: headerNoOpacity 0.5s;
+  -ms-animation: headerNoOpacity 0.5s;
+  animation: headerNoOpacity 0.5s;
 }
 canvas:not(#ribbon-canvas),
 #web_bg {
@@ -3371,11 +3371,11 @@ blockquote footer cite:before {
   color: #009688;
 }
 #page-header.nav-visible #nav {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
   -webkit-transform: translate3d(0, 100%, 0);
   -moz-transform: translate3d(0, 100%, 0);
   -o-transform: translate3d(0, 100%, 0);
@@ -3497,11 +3497,11 @@ _:future,
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 768px) {
   #nav {
